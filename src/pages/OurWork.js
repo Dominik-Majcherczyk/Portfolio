@@ -9,7 +9,13 @@ import dell from "../img/dell.png";
 import fundacja from "../img/fundacja.png";
 import innogy from "../img/innogy.png";
 import justby from "../img/justby.png";
-
+//Gifs
+import apolloGif from "../img/apollo-gif.gif";
+import brandareaGif from "../img/brandarea-gif.gif";
+import brodkaGif from "../img/brodka-gif.gif";
+import fundacjaGif from "../img/fundacja-gif.gif";
+import innogyGif from "../img/innogy-gif.gif";
+import justbyGif from "../img/justby-gif.gif";
 //Animations
 import { motion } from "framer-motion";
 import { sliderContainer, slider, pageAnimation, fade, photoAnim, lineAnim } from "../animation";
@@ -38,7 +44,7 @@ const OurWork = () => {
             <motion.div variants={lineAnim} className="line"></motion.div>
             <Link to="/work/brandarea">
                <Hide>
-                  <motion.img variants={photoAnim} src={brandarea} alt="athlete" />
+                  <motion.img variants={photoAnim} src={brandareaGif} alt="athlete" />
                </Hide>
             </Link>
          </Movie>
@@ -47,7 +53,7 @@ const OurWork = () => {
             <h2>XPS revolt - DELL x Brodka</h2>
             <motion.div variants={lineAnim} className="line"></motion.div>
             <Link to="/work/brodka">
-               <img src={brodka} alt="brodka" />
+               <img src={brodkaGif} alt="brodka" />
             </Link>
          </Movie>
 
@@ -55,7 +61,7 @@ const OurWork = () => {
             <h2>Innogy</h2>
             <motion.div variants={lineAnim} className="line"></motion.div>
             <Link to="/work/innogy">
-               <img src={innogy} alt="innogy" />
+               <img src={innogyGif} alt="innogy" />
             </Link>
          </Movie>
 
@@ -63,7 +69,7 @@ const OurWork = () => {
             <h2>TVN Foundation</h2>
             <motion.div variants={lineAnim} className="line"></motion.div>
             <Link to="/work/fundacja">
-               <img src={fundacja} alt="fundacja" />
+               <img src={fundacjaGif} alt="fundacja" />
             </Link>
          </Movie>
 
@@ -79,7 +85,7 @@ const OurWork = () => {
             <h2>JustBy</h2>
             <motion.div variants={lineAnim} className="line"></motion.div>
             <Link to="/work/justby">
-               <img src={justby} alt="justby" />
+               <img src={justbyGif} alt="justby" />
             </Link>
          </Movie>
 
@@ -87,7 +93,7 @@ const OurWork = () => {
             <h2>Apollo 360</h2>
             <motion.div variants={lineAnim} className="line"></motion.div>
             <Link to="/work/apollo">
-               <img src={apollo} alt="apollo" />
+               <img src={apolloGif} alt="apollo" />
             </Link>
          </Movie>
          <ScrollTop />
@@ -120,9 +126,11 @@ const Movie = styled(motion.div)`
       height: 40vh;
       object-fit: cover;
       object-position: 20%;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
    }
 `;
 const Hide = styled.div`
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
    overflow: hidden;
 `;
 

@@ -25,7 +25,7 @@ const AboutSection = () => {
                </Hide>
             </motion.div>
             <motion.p variants={fade}>
-               I am a 23 years old master degree student of computer science at the University of Silesia. For years I have been improving my skills in the field of web design constantly learning new
+               I am a 23 years old master degree student of computer science at the University of Silesia. For years I have been improving my skills in the web development and constantly learning new
                technologies to create the best possible products. Over the past year, my portfolio has included websites and services for companies such as TVN, DELL, Innogy and many more. I am open
                to any kind of cooperation that will allow me to further develop my skills and broaden my knowledge.
             </motion.p>

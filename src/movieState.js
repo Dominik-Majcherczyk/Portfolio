@@ -7,12 +7,19 @@ import fundacja from "./img/fundacja.png";
 import innogy from "./img/innogy.png";
 import justby from "./img/justby.png";
 
+import apolloGif from "./img/apollo-gif.gif";
+import brandareaGif from "./img/brandarea-gif.gif";
+import brodkaGif from "./img/brodka-gif.gif";
+import fundacjaGif from "./img/fundacja-gif.gif";
+import innogyGif from "./img/innogy-gif.gif";
+import justbyGif from "./img/justby-gif.gif";
+
 export const MovieState = () => {
    return [
       {
          title: "BrandArea",
          mainImg: brandarea,
-         secondaryImg: brandarea,
+         secondaryImg: brandareaGif,
          url: "/work/brandarea",
          link: "https://brandarea.pl/",
          awards: [
@@ -30,7 +37,7 @@ export const MovieState = () => {
          title: "XPS revolt - DELL x Brodka",
          mainImg: brodka,
          url: "/work/brodka",
-         secondaryImg: brodka,
+         secondaryImg: brodkaGif,
          link: "https://xpsrevolt.pl/",
          awards: [
             {
@@ -47,7 +54,7 @@ export const MovieState = () => {
          title: "Innogy",
          mainImg: innogy,
          url: "/work/innogy",
-         secondaryImg: innogy,
+         secondaryImg: innogyGif,
          link: "https://eon.pl/dla-domu",
          awards: [
             {
@@ -65,7 +72,7 @@ export const MovieState = () => {
          title: "TVN Foundation",
          mainImg: fundacja,
          url: "/work/fundacja",
-         secondaryImg: fundacja,
+         secondaryImg: fundacjaGif,
          link: "",
          awards: [
             {
@@ -99,7 +106,7 @@ export const MovieState = () => {
          title: "JustBy",
          mainImg: justby,
          url: "/work/justby",
-         secondaryImg: justby,
+         secondaryImg: justbyGif,
          link: "",
          awards: [
             {
@@ -116,7 +123,7 @@ export const MovieState = () => {
          title: "Apollo 360",
          mainImg: apollo,
          url: "/work/apollo",
-         secondaryImg: apollo,
+         secondaryImg: apolloGif,
          link: "",
          awards: [
             {
